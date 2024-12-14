@@ -2,3 +2,20 @@
 margin: 0;
 padding: 0;
 }
+
+.input {
+    width: 100px !important;
+    display: inline !important;
+}
+
+.title {
+    background-color: transparent;
+}
+
+.btn {
+    background-color: transparent;
+}
+
+.display {
+    background-color: transparent;
+}
