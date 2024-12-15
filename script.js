@@ -7,6 +7,7 @@ let todos = [];
 clickbtn.addEventListener('click', () => {
     todos.push(input.value);
     addtodo(input.value)
+    input.value = '';
 })
 
 function addtodo(todo) {
