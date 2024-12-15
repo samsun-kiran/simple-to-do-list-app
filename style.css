@@ -6,7 +6,7 @@ padding: 0;
 
 /* Input area Style */
 .input {
-    width: 100px !important;
+    width: 75% !important;
     display: inline !important;
 }
 
@@ -25,5 +25,8 @@ padding: 0;
 }
 
 p {
+    background-color: #fff;
     cursor: pointer;
+    font-weight: bolder;
+    height: auto;
 }
