@@ -19,3 +19,7 @@ padding: 0;
 .display {
     background-color: transparent;
 }
+
+p {
+    cursor: pointer;
+}
