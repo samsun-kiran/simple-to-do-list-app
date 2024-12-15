@@ -4,8 +4,15 @@ let result = document.getElementById('todolist')
 
 let todos = [];
 
+window.onload = () => {
+    todos = JSON.parse(localStorage.getItem('todos')) || []
+    todos.forEach(todo => addtodo(todo));
+}
+
+
 clickbtn.addEventListener('click', () => {
     todos.push(input.value);
+    localStorage.setItem('todos', JSON.stringify(todos))
     addtodo(input.value)
     input.value = '';
 })
